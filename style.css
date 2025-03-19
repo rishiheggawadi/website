@@ -93,6 +93,13 @@ section{
     position: relative;
 }
 
+.project-content-odd{
+    padding-top: 30px;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+}
+
 .about{
     display: flex;
     align-items: center;
@@ -145,6 +152,31 @@ section{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
+}
+
+.project-content-odd {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.project-content-odd iframe {
+    width: 1440px;
+    height: 800px;
+    border: none;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.section-title h2{
+    padding-left: 20px;
+    padding-top: 100px;
 }
 
 .info-box{
